@@ -3,8 +3,6 @@
 ## MVP와 PoC, Prototype, Pilot 차이 <a href="#1f42" id="1f42"></a>
 
 Agile, Lean Startup의 MVP(최소 실행가능 제품, Minimum Viable Product를 이해하기 위해 PoC(개념증명), Prototype(프로토타입), Pilot(시범적용)과 비교해보겠습니다. 이들 모두는 검증이라는 공통점이 있습니다. 특히 MVP는 제품을 완전히 개발하지 않고도 제품에 대한 고객의 관심을 초기에 이해하고 개선/검증합니다. 따라서 고객의 반응에 따라 방향성을 개선 할 수 있으며, 시장에서 성공하지 못할 제품에 대한 시간, 노력, 비용을 줄일 수 있습니다.\
-\
-
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
