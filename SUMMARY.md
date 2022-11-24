@@ -12,7 +12,8 @@
   * [Infra](tech-notes/infra/README.md)
     * [Shell Script](tech-notes/infra/shell-script/README.md)
       * [MySQL loadavg 모니터링](tech-notes/infra/shell-script/mysql-loadavg.md)
-  * [Front-end](tech-notes/front-end.md)
+  * [Front-end](tech-notes/front-end/README.md)
+    * [React](tech-notes/front-end/react.md)
 
 ## 참고자료 <a href="#reference" id="reference"></a>
 
