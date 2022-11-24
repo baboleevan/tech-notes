@@ -1,2 +1,6 @@
+---
+layout: editorial
+---
+
 # Tech Notes
 
