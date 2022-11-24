@@ -1,0 +1,15 @@
+# 레거시 테이블 정보 문서화를 돕는 쿼리
+
+```sql
+SELECT TABLE_SCHEMA,
+       TABLE_NAME,
+       COLUMN_NAME,
+       REPLACE(CONCAT(DATA_TYPE, '(', IFNULL(CHARACTER_MAXIMUM_LENGTH, IFNULL(NUMERIC_PRECISION, '')), ') '), '()', '') TYPE,
+       COLUMN_KEY,
+       IS_NULLABLE,
+       COLUMN_DEFAULT,
+       COLUMN_COMMENT
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_SCHEMA NOT IN ('information_schema', 'performance_schema', 'mysql', 'isb_stg', 'isb_prd')
+ORDER BY TABLE_SCHEMA, TABLE_NAME, ORDINAL_POSITION;
+```
