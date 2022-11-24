@@ -116,18 +116,9 @@ Like this의 MVP Approach는 “사용자가 효율적으로 이동 할 수 있�
 ### 참고자료 <a href="#85c1" id="85c1"></a>
 
 * PoC : [https://ko.wikipedia.org/wiki/%EA%B0%9C%EB%85%90\_%EC%A6%9D%EB%AA%85](https://ko.wikipedia.org/wiki/%EA%B0%9C%EB%85%90\_%EC%A6%9D%EB%AA%85)
-* Prototype :\
-  [https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85)
-* MVP :\
-  [https://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html](https://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html)
-* Vaporware(**베이퍼웨어)** :\
-  [https://ko.wikipedia.org/wiki/%EB%B2%A0%EC%9D%B4%ED%8D%BC%EC%9B%A8%EC%96%B4](https://ko.wikipedia.org/wiki/%EB%B2%A0%EC%9D%B4%ED%8D%BC%EC%9B%A8%EC%96%B4)
-* Dropbox의 MVP 동영상(실제 제품은 없고 컨셉으로 증명 후 투자 받음)
+* Prototype : [https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85)
+* MVP : [https://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html](https://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html)
+* Vaporware(**베이퍼웨어)** : [https://ko.wikipedia.org/wiki/%EB%B2%A0%EC%9D%B4%ED%8D%BC%EC%9B%A8%EC%96%B4](https://ko.wikipedia.org/wiki/%EB%B2%A0%EC%9D%B4%ED%8D%BC%EC%9B%A8%EC%96%B4)
+* Dropbox MVP 동영상 (실제 제품은 없고 컨셉으로 증명 후 투자 받음) [https://youtu.be/xy9nSnalvPc](https://youtu.be/xy9nSnalvPc)
 
-{% embed url="https://youtu.be/xy9nSnalvPc" %}
-What is Dropbox?
-{% endembed %}
-
-{% hint style="info" %}
 원문링크 : [https://medium.com/dtevangelist/mvp%EC%99%80-poc-prototype-pilot-%EC%B0%A8%EC%9D%B4-1f525cc4a218](https://medium.com/dtevangelist/mvp%EC%99%80-poc-prototype-pilot-%EC%B0%A8%EC%9D%B4-1f525cc4a218)
-{% endhint %}
