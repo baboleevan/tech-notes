@@ -14,6 +14,8 @@
       * [MySQL loadavg 모니터링](tech-notes/infra/shell-script/mysql-loadavg.md)
   * [Front-end](tech-notes/front-end/README.md)
     * [React](tech-notes/front-end/react.md)
+  * [GitBook](readme/gitbook/README.md)
+    * [설치 방법](readme/gitbook/undefined.md)
 
 ## 참고자료 <a href="#reference" id="reference"></a>
 
@@ -26,3 +28,4 @@
   * [TIL (Today I Learned)](reference/undefined/til-today-i-learned.md)
   * [MVP (Minimum Viable Product)](reference/undefined/mvp-minimum-viable-product.md)
   * [MVP와 PoC, Prototype, Pilot 차이](reference/undefined/mvp-poc-prototype-pilot.md)
+* [외부 링크](reference/undefined-1.md)
