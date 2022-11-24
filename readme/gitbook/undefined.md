@@ -9,7 +9,7 @@ $ gitbook init
 $ gitbook serve 
 ```
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>graceful-fs error</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption>graceful-fs error</figcaption></figure>
 
 ```bash
 # 설치중 에러 발생시 아래와 같이 최신 버전으로 매뉴얼 설치한다.
