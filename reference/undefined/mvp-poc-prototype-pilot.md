@@ -6,7 +6,7 @@ Agile, Lean Startup의 MVP(최소 실행가능 제품, Minimum Viable Product를
 \
 
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## 1. 설명 <a href="#e0a9" id="e0a9"></a>
 
@@ -40,7 +40,7 @@ Pilot은 전체 확대 적용하기전에 소규모로 테스트해서 추후 �
 
 **최소 실행 가능 제품**(Minimum Viable Product, MVP)은 고객에게 가치를 제공해야 하며, 고객 피드백을 받아 **생존하기 위한** 최소한의 노력을 들여 만든 기능(features)을 구현한 제품이다. 최소 실행 가능 제품(MVP)은 신제품 개발에서 학습의 영향을 강조하는 Lean Startup의 개념이다.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Eric Ries는 MVP를 [최소한의 노력으로 고객에 대한 검증 된 정보를 최대한 수집 할 수있는 새로운 제품 버전](http://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html)으로 정의했다. 사람들이 제품과 관련하여 실제로 무엇을하는지 보는 것이 사람들에게 무엇을 원하는지 묻는 것보다 훨씬 더 신뢰할 수 있다.
 
@@ -60,7 +60,7 @@ MVP의 주요 이점은 제품을 완전한 전체를 개발하지 않고도 제
 
 결론적으로, 4가지 모두 검증이라는 공통점은 있지만, 단순한 업무 결과물(Output)을 넘어 MVP가 좀 더우리의 가설대로 고객이 실제 그렇게 변화되는지 성과(Outcome) 검증에 더 효과적이라고 생각됩니다.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## 3. 접근 방식의 예 <a href="#db56" id="db56"></a>
 
@@ -68,7 +68,7 @@ MVP의 주요 이점은 제품을 완전한 전체를 개발하지 않고도 제
 
 절대로 자동차를 만들기위해 킥보드, 자전거, 오토바이, 자동차를 순차적으로 만들라는 의미가 아닙니다. MVP는 고객의 피드백을 받아 **생존하기 위한** 최소한의 기능(features)을 구현한 제품입니다. 특히 아래 그림은 동작(실제 사용해 볼 수 있는)되는 결과물을 강조한 것입니다.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 Like this의 MVP Approach는 “사용자가 효율적으로 이동 할 수 있는 Value를 제공”하기 위한 과정을 소개하고 있습니다. MVP는 고객에게 실현(실행) 가능한 Value를 지속적으로 제공하기 위한 가설/검증하며 제품을 만들어 나갑니다.(부연 : 강의때 아래 그림만 보면 오해하시는분들이 많습니다. 고객에게 이동 편의성 같은 가치를 줘야 한다는 의미입니다.)
 
