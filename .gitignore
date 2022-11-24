@@ -5,3 +5,5 @@ _book
 node_modules
 # Jupyter Notebook checkpoint
 .ipynb_checkpoints
+
+docs
