@@ -1,0 +1,22 @@
+{
+  "name": "leevan-tech-notes",
+  "version": "0.1.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baboleevan/tech-notes.git"
+  },
+  "author": "babboleevan <leevan@gmail.com>",
+  "license": "Apache 2",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-gitbook": "0.4.2",
+    "grunt-gh-pages": "0.9.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-http-server": "0.0.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  }
+}
