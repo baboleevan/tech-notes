@@ -30,8 +30,9 @@
   * [TIL (Today I Learned)](reference/undefined/til-today-i-learned.md)
   * [MVP (Minimum Viable Product)](reference/undefined/mvp-minimum-viable-product.md)
   * [MVP와 PoC, Prototype, Pilot 차이](reference/undefined/mvp-poc-prototype-pilot.md)
+  * [사이드카 패턴 (Sidecar Pattern)](reference/undefined/sidecar-pattern.md)
 
 ## 외부링크 <a href="#links" id="links"></a>
 
-* [Front-end](links/front-end.md)
+* [Front-end](reference/undefined-1.md)
 * [정리중](links/undefined.md)
