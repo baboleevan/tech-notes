@@ -7,10 +7,9 @@ $ npm install gitbook-cli -g
 $ gitbook init
 # 서버 실행
 $ gitbook serve 
-
 ```
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption>grafull-fs error</figcaption></figure>
 
 ```bash
 # 설치중 에러 발생시 아래와 같이 최신 버전으로 매뉴얼 설치한다.
