@@ -6,7 +6,7 @@ Agile, Lean Startup의 MVP(최소 실행가능 제품, Minimum Viable Product를
 \
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## 1. 설명 <a href="#e0a9" id="e0a9"></a>
 
@@ -60,7 +60,7 @@ MVP의 주요 이점은 제품을 완전한 전체를 개발하지 않고도 제
 
 결론적으로, 4가지 모두 검증이라는 공통점은 있지만, 단순한 업무 결과물(Output)을 넘어 MVP가 좀 더우리의 가설대로 고객이 실제 그렇게 변화되는지 성과(Outcome) 검증에 더 효과적이라고 생각됩니다.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## 3. 접근 방식의 예 <a href="#db56" id="db56"></a>
 
