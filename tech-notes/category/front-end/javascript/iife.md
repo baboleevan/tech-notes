@@ -1,4 +1,8 @@
-# 즉시 호출하는 함수 표현식 (IIFE, Immediately Invoked Function Expression)
+---
+description: 'IIFE : Immediately Invoked Function Expression'
+---
+
+# 즉시 호출하는 함수 표현식 (IIFE)
 
 **IIFE**란, "Immediately Invoked Function Expression"의 줄임말로, **정의되자마자 즉시 실행되는 함수 표현식**을 말한다.
 
