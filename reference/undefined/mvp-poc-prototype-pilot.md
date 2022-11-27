@@ -4,7 +4,7 @@
 
 Agile, Lean Startup의 MVP(최소 실행가능 제품, Minimum Viable Product를 이해하기 위해 PoC(개념증명), Prototype(프로토타입), Pilot(시범적용)과 비교해보겠습니다. 이들 모두는 검증이라는 공통점이 있습니다. 특히 MVP는 제품을 완전히 개발하지 않고도 제품에 대한 고객의 관심을 초기에 이해하고 개선/검증합니다. 따라서 고객의 반응에 따라 방향성을 개선 할 수 있으며, 시장에서 성공하지 못할 제품에 대한 시간, 노력, 비용을 줄일 수 있습니다.
 
-<figure><img src="../../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 1. 설명 <a href="#e0a9" id="e0a9"></a>
 
@@ -66,7 +66,7 @@ MVP의 주요 이점은 제품을 완전한 전체를 개발하지 않고도 제
 
 절대로 자동차를 만들기위해 킥보드, 자전거, 오토바이, 자동차를 순차적으로 만들라는 의미가 아닙니다. MVP는 고객의 피드백을 받아 **생존하기 위한** 최소한의 기능(features)을 구현한 제품입니다. 특히 아래 그림은 동작(실제 사용해 볼 수 있는)되는 결과물을 강조한 것입니다.
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Like this의 MVP Approach는 “사용자가 효율적으로 이동 할 수 있는 Value를 제공”하기 위한 과정을 소개하고 있습니다. MVP는 고객에게 실현(실행) 가능한 Value를 지속적으로 제공하기 위한 가설/검증하며 제품을 만들어 나갑니다.(부연 : 강의때 아래 그림만 보면 오해하시는분들이 많습니다. 고객에게 이동 편의성 같은 가치를 줘야 한다는 의미입니다.)
 
