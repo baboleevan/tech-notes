@@ -4,7 +4,7 @@
 
 * [분류](README.md)
   * [OSX Tip](it/category/osx-tip/README.md)
-    * [.dev 도메인 접속 안될때](it/category/osx-tip/.dev.md)
+    * [.dev 도메인 접속 안될때](it/category/osx-tip/dev-domain-tip.md)
     * [cli로 애플리케이션 실행하기](it/category/osx-tip/cli.md)
     * [스크린샷 디렉토리 경로 변경](it/category/osx-tip/undefined.md)
     * [특정 파일 제외하고 압축하기](it/category/osx-tip/undefined-1.md)
