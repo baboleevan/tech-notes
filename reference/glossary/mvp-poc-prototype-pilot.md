@@ -114,7 +114,6 @@ Like this의 MVP Approach는 “사용자가 효율적으로 이동 할 수 있�
 * PoC, Prototype, Pilot, MVP 모두 제3자에게 demo 할 수 있음
 
 **참고자료**
-
 * PoC : [https://ko.wikipedia.org/wiki/%EA%B0%9C%EB%85%90\_%EC%A6%9D%EB%AA%85](https://ko.wikipedia.org/wiki/%EA%B0%9C%EB%85%90\_%EC%A6%9D%EB%AA%85)
 * Prototype : [https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85)
 * MVP : [https://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html](https://www.startuplessonslearned.com/2009/08/minimum-viable-product-guide.html)
