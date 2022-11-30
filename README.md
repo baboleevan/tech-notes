@@ -10,7 +10,7 @@
   * [Back-end](tech-notes/back-end.md)
   * [Database](tech-notes/database/README.md)
     * [MySQL](tech-notes/database/mysql/README.md)
-      * [레거시 테이블 정보 문서화를 돕는 쿼리](tech-notes/database/mysql/undefined.md)
+      * [레거시 테이블 정보 문서화를 돕는 쿼리](tech-notes/database/mysql/export-schema.md)
   * [Infra](tech-notes/infra/README.md)
     * [Shell Script](tech-notes/infra/shell-script/README.md)
       * [MySQL loadavg 모니터링](tech-notes/infra/shell-script/mysql-loadavg.md)
