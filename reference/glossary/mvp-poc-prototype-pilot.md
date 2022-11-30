@@ -121,4 +121,5 @@ Like this의 MVP Approach는 “사용자가 효율적으로 이동 할 수 있�
 * Vaporware(**베이퍼웨어)** : [https://ko.wikipedia.org/wiki/%EB%B2%A0%EC%9D%B4%ED%8D%BC%EC%9B%A8%EC%96%B4](https://ko.wikipedia.org/wiki/%EB%B2%A0%EC%9D%B4%ED%8D%BC%EC%9B%A8%EC%96%B4)
 * Dropbox MVP 동영상 (실제 제품은 없고 컨셉으로 증명 후 투자 받음) [https://youtu.be/xy9nSnalvPc](https://youtu.be/xy9nSnalvPc)
 
-원문링크 : [https://medium.com/dtevangelist/mvp%EC%99%80-poc-prototype-pilot-%EC%B0%A8%EC%9D%B4-1f525cc4a218](https://medium.com/dtevangelist/mvp%EC%99%80-poc-prototype-pilot-%EC%B0%A8%EC%9D%B4-1f525cc4a218)
+**원문링크**
+* [https://medium.com/dtevangelist/mvp%EC%99%80-poc-prototype-pilot-%EC%B0%A8%EC%9D%B4-1f525cc4a218](https://medium.com/dtevangelist/mvp%EC%99%80-poc-prototype-pilot-%EC%B0%A8%EC%9D%B4-1f525cc4a218)
