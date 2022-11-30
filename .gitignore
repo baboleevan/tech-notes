@@ -6,4 +6,5 @@ node_modules
 # Jupyter Notebook checkpoint
 .ipynb_checkpoints
 
-docs
+book.json
+Gruntfile.js
