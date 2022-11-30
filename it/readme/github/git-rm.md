@@ -9,6 +9,6 @@ $ git rm --cached -r [File Name]
 
 # 예시
 $ git rm --cached -r .idea
-$ git commit -m "Delete .idea"
+$ git commit -m "Delete .idea directory"
 $ git push origin
 ```
