@@ -15,6 +15,6 @@ cp -R _book/* docs/
 git clean -fx _book
 
 # upload
-#git add .
-#git commit -a -m "update docs"
-#git push -u origin main
+git add .
+git commit -a -m "update docs"
+git push -u origin main

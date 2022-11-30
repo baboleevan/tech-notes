@@ -9,7 +9,7 @@
   "author": "babboleevan <leevan@gmail.com>",
   "license": "ISC",
   "scripts": {
-    "publish": "./publish.sh"
+    "deploy": "./publish.sh"
   },
   "dependencies": {},
   "devDependencies": {
