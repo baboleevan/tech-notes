@@ -1,51 +1,24 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Build and Publish My GitBook
 
 on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow one concurrent deployment
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+  push:
+    branches:
+      - main
 
 jobs:
-  # Single deploy job since we're just deploying
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  build-and-deploy:
+    name: Build and deploy
     runs-on: ubuntu-latest
+    env:
+      MY_SECRET   : ${{secrets.GH_ACCESS_TOKEN}}
+      USER_NAME   : baboleevan
+      USER_EMAIL  : leevan@gmail.com
+      BOOK_DIR    : docs
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
-      - name: Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 12.x
-      - name: Install Dependencies
-        run: npm install
-      - name: Build Docs
-        run: npm run deploy
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          # Upload entire repository
-          #path: '.'
-          publish_dir: 'docs'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+
+      - name: Build and Deploy 🚀
+        uses: onejar99/gitbook-build-publish-action@v1.0.2
