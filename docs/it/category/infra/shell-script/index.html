@@ -4,9 +4,9 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>즉시 호출하는 함수 표현식 (IIFE) · GitBook</title>
+        <title>Shell Script · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="description" content="IIFE : Immediately Invoked Function Expression">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
         
         
@@ -69,10 +69,10 @@
     <link rel="shortcut icon" href="../../../../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="map-set.html" />
+    <link rel="next" href="mysql-loadavg.html" />
     
     
-    <link rel="prev" href="scope.html" />
+    <link rel="prev" href="../" />
     
 
     </head>
@@ -252,9 +252,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.4" data-path="../../infra/">
+        <li class="chapter " data-level="1.1.4" data-path="../">
             
-                <a href="../../infra/">
+                <a href="../">
             
                     
                     Infra
@@ -266,9 +266,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.1.4.1" data-path="../../infra/shell-script/">
+        <li class="chapter active" data-level="1.1.4.1" data-path="./">
             
-                <a href="../../infra/shell-script/">
+                <a href="./">
             
                     
                     Shell Script
@@ -280,9 +280,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.1.4.1.1" data-path="../../infra/shell-script/mysql-loadavg.html">
+        <li class="chapter " data-level="1.1.4.1.1" data-path="mysql-loadavg.html">
             
-                <a href="../../infra/shell-script/mysql-loadavg.html">
+                <a href="mysql-loadavg.html">
             
                     
                     MySQL loadavg 모니터링
@@ -303,9 +303,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.5" data-path="../">
+        <li class="chapter " data-level="1.1.5" data-path="../../front-end/">
             
-                <a href="../">
+                <a href="../../front-end/">
             
                     
                     Front-end
@@ -317,9 +317,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.1.5.1" data-path="../links.html">
+        <li class="chapter " data-level="1.1.5.1" data-path="../../front-end/links.html">
             
-                <a href="../links.html">
+                <a href="../../front-end/links.html">
             
                     
                     튜토리얼 링크 모음
@@ -330,9 +330,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.5.2" data-path="./">
+        <li class="chapter " data-level="1.1.5.2" data-path="../../front-end/javascript/">
             
-                <a href="./">
+                <a href="../../front-end/javascript/">
             
                     
                     JavaScript 기초
@@ -344,9 +344,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.1.5.2.1" data-path="scope.html">
+        <li class="chapter " data-level="1.1.5.2.1" data-path="../../front-end/javascript/scope.html">
             
-                <a href="scope.html">
+                <a href="../../front-end/javascript/scope.html">
             
                     
                     스코프 (Scope)
@@ -357,9 +357,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.1.5.2.2" data-path="iife.html">
+        <li class="chapter " data-level="1.1.5.2.2" data-path="../../front-end/javascript/iife.html">
             
-                <a href="iife.html">
+                <a href="../../front-end/javascript/iife.html">
             
                     
                     즉시 호출하는 함수 표현식 (IIFE)
@@ -370,9 +370,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.5.2.3" data-path="map-set.html">
+        <li class="chapter " data-level="1.1.5.2.3" data-path="../../front-end/javascript/map-set.html">
             
-                <a href="map-set.html">
+                <a href="../../front-end/javascript/map-set.html">
             
                     
                     Map 과 Set
@@ -388,9 +388,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.5.3" data-path="../react.html">
+        <li class="chapter " data-level="1.1.5.3" data-path="../../front-end/react.html">
             
-                <a href="../react.html">
+                <a href="../../front-end/react.html">
             
                     
                     React
@@ -681,7 +681,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="../../../.." >즉시 호출하는 함수 표현식 (IIFE)</a>
+        <a href="../../../.." >Shell Script</a>
     </h1>
 </div>
 
@@ -696,46 +696,7 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#xC989;&#xC2DC;-&#xD638;&#xCD9C;&#xD558;&#xB294;-&#xD568;&#xC218;-&#xD45C;&#xD604;&#xC2DD;-iife">&#xC989;&#xC2DC; &#xD638;&#xCD9C;&#xD558;&#xB294; &#xD568;&#xC218; &#xD45C;&#xD604;&#xC2DD; (IIFE)</h1>
-<p><strong>IIFE</strong>&#xB780;, &quot;Immediately Invoked Function Expression&quot;&#xC758; &#xC904;&#xC784;&#xB9D0;&#xB85C;, <strong>&#xC815;&#xC758;&#xB418;&#xC790;&#xB9C8;&#xC790; &#xC989;&#xC2DC; &#xC2E4;&#xD589;&#xB418;&#xB294; &#xD568;&#xC218; &#xD45C;&#xD604;&#xC2DD;</strong>&#xC744; &#xB9D0;&#xD55C;&#xB2E4;.</p>
-<blockquote>
-<p><strong>&apos;Self-Executing Anonymous Function&apos;</strong> &#xC774;&#xB77C;&#xACE0;&#xB3C4; &#xBD88;&#xB9AC;&#xBA70;,\
-&#xC804;&#xC5ED; &#xC2A4;&#xCF54;&#xD504;&#xC5D0; &#xBD88;&#xD544;&#xC694;&#xD55C; &#xBCC0;&#xC218;&#xB97C; &#xCD94;&#xAC00;&#xD574;&#xC11C; &#xC624;&#xC5FC;&#xC2DC;&#xD0A4;&#xB294; &#xAC83;&#xC744; &#xBC29;&#xC9C0;&#xD560; &#xC218; &#xC788;&#xC744; &#xBFD0; &#xC544;&#xB2C8;&#xB77C; IIFE &#xB0B4;&#xBD80;&#xC548;&#xC73C;&#xB85C; &#xB2E4;&#xB978; &#xBCC0;&#xC218;&#xB4E4;&#xC774; &#xC811;&#xADFC;&#xD558;&#xB294; &#xAC83;&#xC744; &#xB9C9;&#xC744; &#xC218; &#xC788;&#xB294; &#xBC29;&#xBC95;&#xC774;&#xB2E4;.</p>
-</blockquote>
-<h2 id="iife&#xC758;-&#xBAA9;&#xC801;-">IIFE&#xC758; &#xBAA9;&#xC801; <a href="#iife" id="iife"></a></h2>
-<p>IIFE&#xB294; <strong>&#xC678;&#xBD80;&#xC5D0;&#xC11C; &#xC811;&#xADFC;&#xD560; &#xC218; &#xC5C6;&#xB294; &#xC790;&#xCCB4; Scope&#xB97C; &#xD615;&#xC131;&#xD55C;&#xB2E4;</strong>.\
-Parser&#xB294; JavaScript&#xC5D0;&#xC11C; &#xBCC0;&#xC218;&#xC758; Scope&#xAC00; &#xD568;&#xC218;&#xC5D0; &#xC758;&#xD574; &#xC815;&#xD574;&#xC9C4;&#xB2E4;&#xB294; &#xAC83;&#xC744; &#xC54C;&#xACE0; &#xC788;&#xB2E4;. &#xADF8;&#xB7EC;&#xBBC0;&#xB85C; IIFE &#xD568;&#xC218;&#xB294; <strong>&#xC0C1;&#xC704; Scope&#xC5D0; &#xC811;&#xADFC;&#xD560; &#xC218; &#xC788;&#xC73C;&#xBA74;&#xC11C;&#xB3C4;, &#xB0B4;&#xBD80; &#xBCC0;&#xC218;&#xB97C; &#xC678;&#xBD80;&#xB85C;&#xBD80;&#xD130; &#xBCF4;&#xD638;&#xD574; Privacy&#xB97C; &#xC720;&#xC9C0;&#xD560; &#xC218; &#xC788;&#xB2E4;</strong>.</p>
-<p>&#xB530;&#xB77C;&#xC11C; IIFE &#xC0AC;&#xC6A9;&#xC758; &#xAC00;&#xC7A5; &#xD070; &#xBAA9;&#xC801;&#xC740; <strong>&#xB370;&#xC774;&#xD130; &#xD504;&#xB77C;&#xC774;&#xBC84;&#xC2DC;</strong>&#xC640; <strong>&#xCF54;&#xB4DC; &#xBAA8;&#xB4C8;&#xD654;</strong>&#xB77C;&#xACE0; &#xD560; &#xC218; &#xC788;&#xB2E4;.</p>
-<pre><code class="lang-javascript"><span class="hljs-comment">// &#xC608;&#xC2DC;</span>
-(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
-    <span class="hljs-comment">// IIFE &#xBC14;&#xB514;</span>
-    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;IIFE&quot;</span>);
-})();
-
-<span class="hljs-comment">// &#xD654;&#xC0B4;&#xD45C; &#xD568;&#xC218;&#xB85C;&#xB3C4; &#xC0AC;&#xC6A9; &#xAC00;&#xB2A5;&#xD558;&#xB2E4;</span>
-(() =&gt; {
-    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;IIFE&quot;</span>);
-})();
-</code></pre>
-<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> f = (<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
-    <span class="hljs-keyword">var</span> count = <span class="hljs-number">0</span>; <span class="hljs-comment">// &#xC678;&#xBD80;&#xC5D0;&#xC11C; &#xC811;&#xADFC; &#xD560; &#xC218; &#xC5C6;&#xB294; &#xB0B4;&#xBD80; &#xBCC0;&#xC218;</span>
-    <span class="hljs-keyword">return</span> <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
-        <span class="hljs-keyword">return</span> <span class="hljs-string">`I have been called <span class="hljs-subst">${++count}</span> time(s).`</span>;
-    }
-})();
-
-f(); <span class="hljs-comment">// &apos;I have been called 1 time(s).&apos;</span>
-f(); <span class="hljs-comment">// &apos;I have been called 2 time(s).&apos;</span>
-f(); <span class="hljs-comment">// &apos;I have been called 3 time(s).&apos;</span>
-f(); <span class="hljs-comment">// &apos;I have been called 4 time(s).&apos;</span>
-
-<span class="hljs-built_in">console</span>.log(count); <span class="hljs-comment">// ReferenceError: count is not defined</span>
-
-<span class="hljs-keyword">var</span> f2 = (<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">x</span>) </span>{
-    <span class="hljs-keyword">return</span> x * <span class="hljs-number">2</span>;
-})(<span class="hljs-number">2</span>);
-<span class="hljs-built_in">console</span>.log(f2); <span class="hljs-comment">// 4</span>
-</code></pre>
+                                <h1 id="shell-script">Shell Script</h1>
 
                                 
                                 </section>
@@ -763,12 +724,12 @@ f(); <span class="hljs-comment">// &apos;I have been called 4 time(s).&apos;</sp
 
             
                 
-                <a href="scope.html" class="navigation navigation-prev " aria-label="Previous page: 스코프 (Scope)">
+                <a href="../" class="navigation navigation-prev " aria-label="Previous page: Infra">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="map-set.html" class="navigation navigation-next " aria-label="Next page: Map 과 Set">
+                <a href="mysql-loadavg.html" class="navigation navigation-next " aria-label="Next page: MySQL loadavg 모니터링">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -779,7 +740,7 @@ f(); <span class="hljs-comment">// &apos;I have been called 4 time(s).&apos;</sp
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"description":"IIFE : Immediately Invoked Function Expression","title":"즉시 호출하는 함수 표현식 (IIFE)","level":"1.1.5.2.2","depth":4,"next":{"title":"Map 과 Set","level":"1.1.5.2.3","depth":4,"path":"it/category/front-end/javascript/map-set.md","ref":"it/category/front-end/javascript/map-set.md","articles":[]},"previous":{"title":"스코프 (Scope)","level":"1.1.5.2.1","depth":4,"path":"it/category/front-end/javascript/scope.md","ref":"it/category/front-end/javascript/scope.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","hide-published-with","multipart","collapsible-chapters"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"leevans-tech-notes"},"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"search":{},"collapsible-chapters":{},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"pdf":{"fontSize":9,"paperSize":"a4","chapterMark":"both","margin":{"right":2,"left":2,"top":6,"bottom":6},"headerTemplate":"_TITLE_","footerTemplate":"_SECTION_"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"it/category/front-end/javascript/iife.md","mtime":"2022-11-29T12:22:32.195Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-30T15:35:39.414Z"},"basePath":"../../../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Shell Script","level":"1.1.4.1","depth":3,"next":{"title":"MySQL loadavg 모니터링","level":"1.1.4.1.1","depth":4,"path":"it/category/infra/shell-script/mysql-loadavg.md","ref":"it/category/infra/shell-script/mysql-loadavg.md","articles":[]},"previous":{"title":"Infra","level":"1.1.4","depth":2,"path":"it/category/infra/README.md","ref":"it/category/infra/README.md","articles":[{"title":"Shell Script","level":"1.1.4.1","depth":3,"path":"it/category/infra/shell-script/README.md","ref":"it/category/infra/shell-script/README.md","articles":[{"title":"MySQL loadavg 모니터링","level":"1.1.4.1.1","depth":4,"path":"it/category/infra/shell-script/mysql-loadavg.md","ref":"it/category/infra/shell-script/mysql-loadavg.md","articles":[]}]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","hide-published-with","multipart","collapsible-chapters"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"leevans-tech-notes"},"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"search":{},"collapsible-chapters":{},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"pdf":{"fontSize":9,"paperSize":"a4","chapterMark":"both","margin":{"right":2,"left":2,"top":6,"bottom":6},"headerTemplate":"_TITLE_","footerTemplate":"_SECTION_"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"it/category/infra/shell-script/README.md","mtime":"2022-11-24T15:10:31.011Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-30T15:35:39.414Z"},"basePath":"../../../..","book":{"language":""}});
         });
     </script>
 </div>

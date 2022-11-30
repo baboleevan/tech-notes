@@ -16,7 +16,7 @@ rm -rf ./docs/Gruntfile.js
 rm -rf ./docs/yarn.lock
 rm -rf ./docs/yarn-error.log
 
-cp SUMMARY.md README.md
+#cp SUMMARY.md README.md
 
 # delete things
 git clean -fx _book
