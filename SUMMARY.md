@@ -16,7 +16,7 @@
     * [Shell Script](tech-notes/infra/shell-script/README.md)
       * [MySQL loadavg 모니터링](tech-notes/infra/shell-script/mysql-loadavg.md)
   * [Front-end](tech-notes/front-end/README.md)
-    * [튜토리얼 링크 모음](it/category/front-end/undefined.md)
+    * [튜토리얼 링크 모음](it/readme/front-end/links.md)
     * [JavaScript 기초](it/category/front-end/javascript/README.md)
       * [스코프 (Scope)](it/category/front-end/javascript/scope.md)
       * [즉시 호출하는 함수 표현식 (IIFE)](it/category/front-end/javascript/iife.md)

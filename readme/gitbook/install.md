@@ -19,6 +19,7 @@ cd /opt/homebrew/lib/node_modules/gitbook-cli/node_modules/npm/node_modules && n
 ```
 
 book.json 파일 생성
+
 ```json
 {
   "plugins": [
@@ -46,6 +47,5 @@ $ brew install --cask calibre
 $ gitbook pdf
 $ gitbook epub
 $ gitbook mobi
-
 
 ```
