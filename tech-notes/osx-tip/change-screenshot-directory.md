@@ -2,6 +2,6 @@
 
 
 
-```bash
+```shell
 defaults write com.apple.screencapture location folder_name_here
 ```
