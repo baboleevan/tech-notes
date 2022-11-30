@@ -18,5 +18,5 @@ git clean -fx _book
 
 # upload
 git add .
-git commit -a -m "update docs"
+git commit -a -m "update docs" --author="babolevan <leevan@gmail.com>"
 git push -u origin main
