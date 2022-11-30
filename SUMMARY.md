@@ -39,5 +39,5 @@
 
 ## 외부링크 <a href="#links" id="links"></a>
 
-* [Front-end](reference/undefined-1.md)
+* [Front-end](reference/front-end-links.md)
 * [정리중](links/undefined.md)

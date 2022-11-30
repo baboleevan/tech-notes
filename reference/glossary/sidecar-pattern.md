@@ -40,6 +40,7 @@ description: 어플리케이션 컨테이너와 독립적으로 동작하는 별
 * [Deploying an NGINX Reverse Proxy Sidecar Container on Amazon ECS](https://aws.amazon.com/ko/blogs/compute/nginx-reverse-proxy-sidecar-container-on-amazon-ecs/)
 * [Centralized logging in Kubernetes](https://medium.com/@maanadev/centralized-logging-in-kubernetes-d5a21ae10c6e)
 
-**원문링크** \
-[https://blog.leocat.kr/notes/2019/02/16/cloud-sidecar-pattern](https://blog.leocat.kr/notes/2019/02/16/cloud-sidecar-pattern)\
-[https://azderica.github.io/00-design-pattern-sidecar/](https://azderica.github.io/00-design-pattern-sidecar/)
+**원문링크** 
+
+* [https://blog.leocat.kr/notes/2019/02/16/cloud-sidecar-pattern](https://blog.leocat.kr/notes/2019/02/16/cloud-sidecar-pattern)\
+* [https://azderica.github.io/00-design-pattern-sidecar/](https://azderica.github.io/00-design-pattern-sidecar/)
