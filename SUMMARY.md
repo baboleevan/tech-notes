@@ -21,6 +21,8 @@
       * [즉시 호출하는 함수 표현식 (IIFE)](it/category/front-end/javascript/iife.md)
       * [Map 과 Set](it/category/front-end/javascript/map-set.md)
     * [React](tech-notes/front-end/react.md)
+  * [Github](it/readme/github/README.md)
+    * [원격 저장소에 올라간 파일 삭제 하기](it/readme/github/git-rm.md)
   * [GitBook](readme/gitbook/README.md)
     * [설치 방법](readme/gitbook/install.md)
 
