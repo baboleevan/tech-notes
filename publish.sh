@@ -11,6 +11,8 @@ gitbook install && gitbook build
 mkdir docs
 cp -R _book/* docs/
 
+cp SUMMARY.md README.md
+
 # delete things
 git clean -fx _book
 
