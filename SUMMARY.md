@@ -22,7 +22,7 @@
       * [Map 과 Set](it/category/front-end/javascript/map-set.md)
     * [React](tech-notes/front-end/react.md)
   * [GitBook](readme/gitbook/README.md)
-    * [설치 방법](readme/gitbook/undefined.md)
+    * [설치 방법](readme/gitbook/install.md)
 
 ## 참고자료 <a href="#reference" id="reference"></a>
 
@@ -40,4 +40,4 @@
 ## 외부링크 <a href="#links" id="links"></a>
 
 * [Front-end](reference/front-end-links.md)
-* [정리중](links/undefined.md)
+* [정리중](links/working.md)
