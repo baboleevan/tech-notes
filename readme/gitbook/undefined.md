@@ -7,6 +7,8 @@ $ npm install gitbook-cli -g
 $ gitbook init
 # 서버 실행
 $ gitbook serve 
+# 플러그인 설치
+$ gitbook install
 ```
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>graceful-fs error</p></figcaption></figure>
@@ -41,6 +43,9 @@ book.json 파일 생성
 # E-book을 만들어주는 소프트웨어
 $ brew install --cask calibre
 
-# 플러그인 설치
-$ gitbook install
+$ gitbook pdf
+$ gitbook epub
+$ gitbook mobi
+
+
 ```
