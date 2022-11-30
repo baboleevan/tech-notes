@@ -3,6 +3,7 @@
 # remove gitbook old things
 rm -rf _book
 rm -rf docs
+rm -rf yarn-error.log
 
 # gitbook init
 gitbook install && gitbook build
@@ -10,6 +11,10 @@ gitbook install && gitbook build
 # build pages
 mkdir docs
 cp -R _book/* docs/
+rm -rf ./docs/publish.sh
+rm -rf ./docs/Gruntfile.js
+rm -rf ./docs/yarn.lock
+rm -rf ./docs/yarn-error.log
 
 cp SUMMARY.md README.md
 
