@@ -1,0 +1,786 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>사이드카 패턴 (Sidecar Pattern) · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="어플리케이션 컨테이너와 독립적으로 동작하는 별도의 컨테이너를 붙이는 패턴">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-multipart/multipart.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../front-end-links.html" />
+    
+    
+    <link rel="prev" href="mvp-poc-prototype-pilot.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Tech Notes</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    분류
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1" data-path="../../tech-notes/osx-tip/">
+            
+                <a href="../../tech-notes/osx-tip/">
+            
+                    
+                    OSX Tip
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.1.1" data-path="../../tech-notes/osx-tip/dev-domain-tip.html">
+            
+                <a href="../../tech-notes/osx-tip/dev-domain-tip.html">
+            
+                    
+                    .dev 도메인 접속 안될때
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.2" data-path="../../tech-notes/osx-tip/cli.html">
+            
+                <a href="../../tech-notes/osx-tip/cli.html">
+            
+                    
+                    cli로 애플리케이션 실행하기
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.1.3" data-path="../../tech-notes/osx-tip/change-screenshot-directory.html">
+            
+                <a href="../../tech-notes/osx-tip/change-screenshot-directory.html">
+            
+                    
+                    스크린샷 디렉토리 경로 변경
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.2" data-path="../../tech-notes/back-end.html">
+            
+                <a href="../../tech-notes/back-end.html">
+            
+                    
+                    Back-end
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.3" data-path="../../tech-notes/database/">
+            
+                <a href="../../tech-notes/database/">
+            
+                    
+                    Database
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.3.1" data-path="../../tech-notes/database/mysql/">
+            
+                <a href="../../tech-notes/database/mysql/">
+            
+                    
+                    MySQL
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.3.1.1" data-path="../../tech-notes/database/mysql/undefined.html">
+            
+                <a href="../../tech-notes/database/mysql/undefined.html">
+            
+                    
+                    레거시 테이블 정보 문서화를 돕는 쿼리
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.4" data-path="../../tech-notes/infra/">
+            
+                <a href="../../tech-notes/infra/">
+            
+                    
+                    Infra
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.4.1" data-path="../../tech-notes/infra/shell-script/">
+            
+                <a href="../../tech-notes/infra/shell-script/">
+            
+                    
+                    Shell Script
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.4.1.1" data-path="../../tech-notes/infra/shell-script/mysql-loadavg.html">
+            
+                <a href="../../tech-notes/infra/shell-script/mysql-loadavg.html">
+            
+                    
+                    MySQL loadavg 모니터링
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5" data-path="../../tech-notes/front-end/">
+            
+                <a href="../../tech-notes/front-end/">
+            
+                    
+                    Front-end
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.5.1" data-path="../../it/category/front-end/undefined.html">
+            
+                <a href="../../it/category/front-end/undefined.html">
+            
+                    
+                    튜토리얼 링크 모음
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.2" data-path="../../it/category/front-end/javascript/">
+            
+                <a href="../../it/category/front-end/javascript/">
+            
+                    
+                    JavaScript 기초
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.5.2.1" data-path="../../it/category/front-end/javascript/scope.html">
+            
+                <a href="../../it/category/front-end/javascript/scope.html">
+            
+                    
+                    스코프 (Scope)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.2.2" data-path="../../it/category/front-end/javascript/iife.html">
+            
+                <a href="../../it/category/front-end/javascript/iife.html">
+            
+                    
+                    즉시 호출하는 함수 표현식 (IIFE)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.2.3" data-path="../../it/category/front-end/javascript/map-set.html">
+            
+                <a href="../../it/category/front-end/javascript/map-set.html">
+            
+                    
+                    Map 과 Set
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.5.3" data-path="../../tech-notes/front-end/react.html">
+            
+                <a href="../../tech-notes/front-end/react.html">
+            
+                    
+                    React
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.1.6" data-path="../../readme/gitbook/">
+            
+                <a href="../../readme/gitbook/">
+            
+                    
+                    GitBook
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1.6.1" data-path="../../readme/gitbook/install.html">
+            
+                <a href="../../readme/gitbook/install.html">
+            
+                    
+                    설치 방법
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">참고자료</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    용어사전
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="mailestone.html">
+            
+                <a href="mailestone.html">
+            
+                    
+                    마일스톤 (Mailestone)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="rfp-request-for-proposal.html">
+            
+                <a href="rfp-request-for-proposal.html">
+            
+                    
+                    제안요청서 (RFP : Request for proposal)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.3" data-path="momentum.html">
+            
+                <a href="momentum.html">
+            
+                    
+                    모멘텀 (Momentum)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.4" data-path="bep.html">
+            
+                <a href="bep.html">
+            
+                    
+                    순익분기점 (BEP)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.5" data-path="retention.html">
+            
+                <a href="retention.html">
+            
+                    
+                    리텐션 (Retention)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.6" data-path="til-today-i-learned.html">
+            
+                <a href="til-today-i-learned.html">
+            
+                    
+                    TIL (Today I Learned)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.7" data-path="mvp-minimum-viable-product.html">
+            
+                <a href="mvp-minimum-viable-product.html">
+            
+                    
+                    MVP (Minimum Viable Product)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.8" data-path="mvp-poc-prototype-pilot.html">
+            
+                <a href="mvp-poc-prototype-pilot.html">
+            
+                    
+                    MVP와 PoC, Prototype, Pilot 차이
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.1.9" data-path="sidecar-pattern.html">
+            
+                <a href="sidecar-pattern.html">
+            
+                    
+                    사이드카 패턴 (Sidecar Pattern)
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">외부링크</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../front-end-links.html">
+            
+                <a href="../front-end-links.html">
+            
+                    
+                    Front-end
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../links/working.html">
+            
+                <a href="../../links/working.html">
+            
+                    
+                    정리중
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >사이드카 패턴 (Sidecar Pattern)</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#xC0AC;&#xC774;&#xB4DC;&#xCE74;-&#xD328;&#xD134;-sidecar-pattern">&#xC0AC;&#xC774;&#xB4DC;&#xCE74; &#xD328;&#xD134; (Sidecar Pattern)</h1>
+<hr>
+<p><img src="https://user-images.githubusercontent.com/42582516/108616806-4f36d300-7454-11eb-8d58-ceadd4f438ac.png" alt="image"></p>
+<p>&#xC77C;&#xBC18;&#xC801;&#xC73C;&#xB85C; &#xC0AC;&#xC774;&#xB4DC;&#xCE74; &#xD328;&#xD134;&#xC740; &#xB2E4;&#xC74C;&#xACFC; &#xAC19;&#xC774; &#xAD6C;&#xC131;&#xB41C;&#xB2E4;. &#xC0AC;&#xC774;&#xB4DC;&#xCE74; &#xC11C;&#xBE44;&#xC2A4;&#xB294; &#xC5B4;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;&#xC758; &#xC77C;&#xBD80;&#xC77C; &#xD544;&#xC694;&#xB294; &#xC5C6;&#xC73C;&#xBA70; &#xC560;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;&#xC5D0; &#xC5F0;&#xACB0;&#xB418;&#xC5B4; &#xC788;&#xB2E4;. &#xC0AC;&#xC774;&#xB4DC;&#xCE74;&#xB294; &#xAE30;&#xBCF8; &#xC5B4;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;&#xC744; &#xC0AC;&#xC6A9;&#xD574;&#xC11C; &#xBC30;&#xD3EC;&#xB418;&#xB294; &#xD504;&#xB85C;&#xC138;&#xC2A4; &#xB610;&#xB294; &#xC11C;&#xBE44;&#xC2A4;&#xB97C; &#xC9C0;&#xC6D0;&#xD55C;&#xB2E4;.</p>
+<p><strong>&#xC608;&#xC2DC;</strong></p>
+<ul>
+<li>&#xC815;&#xC801; &#xD30C;&#xC77C; &#xCEE8;&#xD150;&#xCE20;&#xB97C; &#xCC98;&#xB9AC;&#xD558;&#xB3C4;&#xB85D; NGINX Proxy&#xB97C; node.js &#xC11C;&#xBE44;&#xC2A4; &#xC778;&#xC2A4;&#xD134;&#xC2A4; &#xC55E;&#xC5D0; &#xBC30;&#xCE58;&#xD55C;&#xB2E4;.</li>
+<li>&#xBCF4;&#xC548;&#xC744; &#xC704;&#xD574; &#xC0AC;&#xC774;&#xB4DC;&#xCE74;&#xB85C; NGINX reverse proxy &#xB4F1;&#xC744; &#xBD99;&#xC5EC;&#xC11C; HTTPS &#xD1B5;&#xC2E0;&#xC744; &#xD55C;&#xB2E4;.</li>
+<li>&#xC131;&#xB2A5;&#xC744; &#xC704;&#xD574; &#xC0AC;&#xC774;&#xB4DC;&#xCE74;&#xB85C; NGINX content cache &#xB4F1;&#xC744; &#xBD99;&#xC778;&#xB2E4;.</li>
+<li>&#xCEE8;&#xD14C;&#xC774;&#xB108; &#xC678;&#xBD80;&#xB85C; &#xB85C;&#xADF8;&#xB97C; &#xBAA8;&#xC73C;&#xAE30; &#xC704;&#xD574; logstash, fluentd &#xB4F1;&#xC744; &#xBD99;&#xC778;&#xB2E4;. (centralized logging)</li>
+</ul>
+<p><strong>&#xC7A5;&#xC810;</strong></p>
+<ul>
+<li>&#xC0C1;&#xD638; &#xC758;&#xC874;&#xC131;&#xC744; &#xC904;&#xC77C; &#xC218; &#xC788;&#xB2E4;.</li>
+<li>&#xC0AC;&#xC774;&#xB4DC;&#xCE74; &#xC7A5;&#xC560; &#xC2DC; &#xC5B4;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;&#xC774; &#xC601;&#xD5A5;&#xC744; &#xBC1B;&#xC9C0; &#xC54A;&#xB294;&#xB2E4;. (Isolation)</li>
+<li>&#xC0AC;&#xC774;&#xB4DC;&#xCE74; &#xC801;&#xC6A9;/&#xBCC0;&#xACBD;/&#xC81C;&#xAC70; &#xB4F1;&#xC758; &#xACBD;&#xC6B0;&#xC5D0; &#xC5B4;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;&#xC740; &#xC218;&#xC815;&#xC774; &#xD544;&#xC694; &#xC5C6;&#xB2E4;.</li>
+<li>&#xC5B4;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;&#xACFC; &#xC0AC;&#xC774;&#xB4DC;&#xCE74;&#xB97C; &#xB2E4;&#xB978; &#xC5B8;&#xC5B4;&#xB85C; &#xB9CC;&#xB4E4; &#xC218; &#xC788;&#xB2E4;.</li>
+<li>&#xB300;&#xBD80;&#xBD84; &#xAC19;&#xC740; &#xC2A4;&#xD1A0;&#xB9AC;&#xC9C0;&#xB97C; &#xACF5;&#xC720;&#xD560; &#xC218; &#xC788;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xACF5;&#xC720;&#xC5D0; &#xB300;&#xD55C; &#xACE0;&#xBBFC;&#xC774; &#xC801;&#xB2E4;.</li>
+</ul>
+<p><strong>&#xB2E8;&#xC810;</strong></p>
+<ul>
+<li>&#xC5B4;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;&#xC774; &#xB108;&#xBB34; &#xC791;&#xC740; &#xACBD;&#xC6B0; &#xBC30; &#xBCF4;&#xB2E4; &#xBC30;&#xAF3D;&#xC774; &#xCEE4;&#xC9C8; &#xC218; &#xC788;&#xB2E4;.</li>
+<li>&#xD504;&#xB85C;&#xC138;&#xC2A4;&#xAC04; &#xD1B5;&#xC2E0;&#xC774; &#xB9CE;&#xACE0; &#xCD5C;&#xC801;&#xD654; &#xD574;&#xC57C; &#xD55C;&#xB2E4;&#xBA74;, &#xC5B4;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158;&#xC5D0;&#xC11C; &#xD568;&#xAED8; &#xCC98;&#xB9AC;&#xD558;&#xB294;&#xAC8C; &#xC88B;&#xC744; &#xC218; &#xC788;&#xB2E4;.</li>
+</ul>
+<p><strong>&#xCC38;&#xACE0;&#xB9C1;&#xD06C;</strong></p>
+<ul>
+<li><a href="https://blog.davemdavis.net/2018/03/13/the-sidecar-pattern/" target="_blank">The Sidecar Pattern</a></li>
+<li><a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/sidecar" target="_blank">Sidecar pattern - Azure docs</a></li>
+<li><a href="https://kubernetes.io/docs/concepts/workloads/pods/pod-overview/#how-pods-manage-multiple-containers" target="_blank">How Pods manage multiple Containers - kubernetes Pod Overview doc</a></li>
+<li><a href="https://aws.amazon.com/ko/blogs/compute/nginx-reverse-proxy-sidecar-container-on-amazon-ecs/" target="_blank">Deploying an NGINX Reverse Proxy Sidecar Container on Amazon ECS</a></li>
+<li><a href="https://medium.com/@maanadev/centralized-logging-in-kubernetes-d5a21ae10c6e" target="_blank">Centralized logging in Kubernetes</a></li>
+</ul>
+<p><strong>&#xC6D0;&#xBB38;&#xB9C1;&#xD06C;</strong> </p>
+<ul>
+<li><a href="https://blog.leocat.kr/notes/2019/02/16/cloud-sidecar-pattern" target="_blank">https://blog.leocat.kr/notes/2019/02/16/cloud-sidecar-pattern</a>\</li>
+<li><a href="https://azderica.github.io/00-design-pattern-sidecar/" target="_blank">https://azderica.github.io/00-design-pattern-sidecar/</a></li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="mvp-poc-prototype-pilot.html" class="navigation navigation-prev " aria-label="Previous page: MVP와 PoC, Prototype, Pilot 차이">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../front-end-links.html" class="navigation navigation-next " aria-label="Next page: Front-end">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"description":"어플리케이션 컨테이너와 독립적으로 동작하는 별도의 컨테이너를 붙이는 패턴","title":"사이드카 패턴 (Sidecar Pattern)","level":"2.1.9","depth":2,"next":{"title":"Front-end","level":"3.1","depth":1,"path":"reference/front-end-links.md","ref":"reference/front-end-links.md","articles":[]},"previous":{"title":"MVP와 PoC, Prototype, Pilot 차이","level":"2.1.8","depth":2,"path":"reference/glossary/mvp-poc-prototype-pilot.md","ref":"reference/glossary/mvp-poc-prototype-pilot.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["disqus","hide-published-with","multipart","collapsible-chapters"],"pluginsConfig":{"disqus":{"useIdentifier":false,"shortName":"leevans-tech-notes"},"styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"search":{},"collapsible-chapters":{},"multipart":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"hide-published-with":{},"pdf":{"fontSize":9,"paperSize":"a4","chapterMark":"both","margin":{"right":2,"left":2,"top":6,"bottom":6},"headerTemplate":"_TITLE_","footerTemplate":"_SECTION_"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"reference/glossary/sidecar-pattern.md","mtime":"2022-11-30T12:46:35.782Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-11-30T13:41:56.282Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-published-with/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-collapsible-chapters/collapsible-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
