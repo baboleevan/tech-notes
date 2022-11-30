@@ -4,7 +4,7 @@
 
 * [분류](README.md)
   * [OSX Tip](tech-notes/osx-tip/README.md)
-    * [.dev 도메인 접속 안될때](tech-notes/osx-tip/.dev.md)
+    * [.dev 도메인 접속 안될때](tech-notes/osx-tip/dev-domain-tip.md)
     * [cli로 애플리케이션 실행하기](tech-notes/osx-tip/cli.md)
     * [스크린샷 디렉토리 경로 변경](tech-notes/osx-tip/undefined.md)
   * [Back-end](tech-notes/back-end.md)
