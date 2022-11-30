@@ -1,13 +1,16 @@
 {
   "name": "leevan-tech-notes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "repository": {
     "type": "git",
     "url": "https://github.com/baboleevan/tech-notes.git"
   },
   "author": "babboleevan <leevan@gmail.com>",
-  "license": "Apache 2",
+  "license": "ISC",
+  "scripts": {
+    "publish": "./publish.sh"
+  },
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
