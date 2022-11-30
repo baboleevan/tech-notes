@@ -1,0 +1,17 @@
+{
+  "plugins": [
+    "disqus",
+    "theme-api",
+    "hide-published-with",
+    "multipart",
+    "collapsible-chapters"
+  ],
+  "pluginsConfig": {
+    "disqus": {
+      "shortName": "baboleevan"
+    },
+    "theme-api": {
+      "theme": "dark"
+    }
+  }
+}
