@@ -1,4 +1,4 @@
-name: Build and Publish My GitBook
+name: Build and Publish GitBook
 
 on:
   workflow_dispatch:

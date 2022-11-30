@@ -22,7 +22,7 @@ cp SUMMARY.md README.md
 git clean -fx _book
 
 ## upload
-#git add .
-##git commit -a -m "update docs" --author="babolevan <leevan@gmail.com>"
-#git commit -a -m "update docs"
-#git push -u origin main
+git add .
+#git commit -a -m "update docs" --author="babolevan <leevan@gmail.com>"
+git commit -a -m "update docs"
+git push -u origin main
