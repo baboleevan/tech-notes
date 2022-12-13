@@ -4,7 +4,7 @@
 
 * [분류](README.md)
   * [CS](it/readme/cs-basic/README.md)
-    * [정적타입(Statically typed) vs 동적타입 (Dynamically typed)](it/readme/cs-basic/statically-typed-vs-dynamically-typed.md)
+    * [정적타입(Statically typed), 동적타입 (Dynamically typed)](it/readme/cs-basic/statically-typed-dynamically-typed.md)
   * [Back-end](it/category/back-end.md)
   * [Database](it/category/database/README.md)
     * [MySQL](it/category/database/mysql/README.md)
@@ -15,6 +15,7 @@
   * [Front-end](it/category/front-end/README.md)
     * [튜토리얼 링크 모음](it/category/front-end/links.md)
     * [JavaScript 기초](it/category/front-end/javascript/README.md)
+      * [참조 할당과 깊은 복사, 얕은 복사](it/readme/front-end/javascript/deepcopy-shadow-copy.md)
       * [스코프 (Scope)](it/category/front-end/javascript/scope.md)
       * [즉시 호출하는 함수 표현식 (IIFE)](it/category/front-end/javascript/iife.md)
       * [Map 과 Set](it/category/front-end/javascript/map-set.md)
