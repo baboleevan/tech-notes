@@ -19,6 +19,7 @@
       * [스코프 (Scope)](it/category/front-end/javascript/scope.md)
       * [즉시 호출하는 함수 표현식 (IIFE)](it/category/front-end/javascript/iife.md)
       * [Map 과 Set](it/category/front-end/javascript/map-set.md)
+      * [고차함수 (hoc : Higher order function)](it/readme/front-end/javascript/hoc.md)
     * [React](it/category/front-end/react.md)
   * [OSX Tip](it/category/osx-tip/README.md)
     * [.dev 도메인 접속 안될때](it/category/osx-tip/dev-domain-tip.md)
