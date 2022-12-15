@@ -1,6 +1,6 @@
 # 정적타입(Statically typed), 동적타입 (Dynamically typed)
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 정적 타입 언어, 동적 타입 언어
 
@@ -21,8 +21,9 @@
 
 ## 강타입 언어, 약타입 언어
 
-정적 타입 언어/동적 타입 언어와 강타입 언어/약타입 언어는 완전히 다른 개념이다.\
-강타입과 약타입은 형변환(Type Casting 또는 Type Conversion)을 기준으로 구분된다.
+정적 타입 언어/동적 타입 언어와 강타입 언어/약타입 언어는 다른 개념이다.\
+강타입/약타입 언어는 프로그래밍 언어의 타입 체계를 말하여, 이는 변수나 상수의 타입이 강제되는 정도를 말한다.\
+반면, 정적/동적 타입 언어는 타입 체킹 시점(컴파일/런타임 시점)으로 구분된다.
 
 * **강타입 언어**는 다른 형끼리의 변환이 금지되어있고, 만약 변환을 하고싶다면 명시적으로 타입을 선언해줘야한다.\
   (자료형이 맞지 않을 시 에러 발생)
