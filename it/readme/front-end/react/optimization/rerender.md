@@ -1,10 +1,23 @@
+---
+description: 대부분의 경우, 리렌더링은 React 어플리케이션의 버그가 아니라 기능이다.
+---
+
 # 리렌더링은 언제 일어 날까?
 
 React에서 컴포넌트가 **리렌더링되는 조건**은 크게 다음과 같다.
 
 1. props나 state가 변경될 때
 2. 부모 컴포넌트가 리렌더링될 때
-3. forceUpdate() 함수를 호출할 때 (클래스형 컴포넌트)
+3.  Context API \
+    Context Provider의 value가 변경되면 해당 Context를 구독하는 모든 컴포넌트가 리렌더링된다. \
+    따라서, Context Provider의 value가 불필요하게 자주 변경될 경우 불필요한 리렌더링이 발생할 수 있다.
+
+    하지만, React는 똑똑하게도 Context Provider의 value가 변경되었을 때, 실제로 사용되는 컴포넌트들만 리렌더링한다. 따라서, 모든 컴포넌트가 리렌더링되지는 않는다.
+
+    또한, React.memo나 shouldComponentUpdate와 같은 방법을 사용하여 Context Provider의 value 변경 시 해당 컴포넌트의 리렌더링을 방지할 수도 있다. 이러한 방법들을 사용하면 Context를 사용하는 컴포넌트의 성능을 최적화할 수 있다.
+4. forceUpdate() 함수를 호출할 때 (클래스형 컴포넌트를 사용할 경우)
+
+
 
 **리렌더링을 최적화하는 방법**
 
