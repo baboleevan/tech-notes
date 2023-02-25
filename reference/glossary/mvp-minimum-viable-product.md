@@ -1,10 +1,9 @@
 ---
-description: '최소 기능 제품(Minimum Viable Product, MVP) : 최소한의 기능(features)만을 갖춘 제품'
+description: 최소 기능 제품(Minimum Viable Product, MVP)는 고객의 피드백을 받아 최소한의 기능(features)을 구현한 제품
 ---
 
 # MVP (Minimum Viable Product)
 
-MVP(Minimum Viable Product)는 **최소한의 기능만을 갖춘 제품**을 말한다. \
-MVP는 제품의 기본적인 기능을 제공하는 데 초점을 맞추고 있으며, 일반적으로 제품의 최초 버전으로 개발한다. MVP는 제품의 기능을 간소화하고 사용자의 요구사항을 충족시키는 데 초점을 맞추고 있으며, 제품의 실제 기능을 검증하기 위해 사용자에게 제공된다. MVP를 개발하면 제품의 실제 기능을 사용자들이 실제로 사용하면서 테스트할 수 있으며, 이를 통해 제품의 수정이나 개선에 대한 정보를 수집할 수 있다.
+**최소 기능 제품**(Minimum Viable Product, MVP)는 고객의 피드백을 받아 최소한의 기능(features)을 구현한 제품이다.
 
 ## &#x20;<a href="#1f42" id="1f42"></a>
