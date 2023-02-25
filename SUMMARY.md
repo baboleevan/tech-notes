@@ -44,6 +44,7 @@
   * [MVP와 PoC, Prototype, Pilot 차이](reference/glossary/mvp-poc-prototype-pilot.md)
   * [사이드카 패턴 (Sidecar Pattern)](reference/glossary/sidecar-pattern.md)
   * [온 콜 (On-Call)](reference/glossary/on-call.md)
+  * [룩앤필 (Look & Feel)](reference/glossary/look-and-feel.md)
 
 ## 외부링크 <a href="#links" id="links"></a>
 
