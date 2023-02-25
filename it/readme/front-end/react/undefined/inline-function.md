@@ -76,3 +76,5 @@ function ParentComponent() {
   );
 }
 ```
+
+* [https://medium.com/technogise/journey-of-improving-react-app-performance-by-10x-9195d4b483d4](https://medium.com/technogise/journey-of-improving-react-app-performance-by-10x-9195d4b483d4)
