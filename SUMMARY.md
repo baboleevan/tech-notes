@@ -22,7 +22,7 @@
       * [고차함수 (hoc : Higher order function)](it/readme/front-end/javascript/hoc.md)
     * [React](it/category/front-end/react.md)
       * [최적화](it/readme/front-end/react/undefined/README.md)
-        * [리렌더링은 일어 나는가?](it/readme/front-end/react/undefined/undefined.md)
+        * [리렌더링은 언제 일어 날까?](it/readme/front-end/react/undefined/undefined.md)
         * [Inline function 사용해도 될까?](it/readme/front-end/react/undefined/inline-function.md)
   * [OSX Tip](it/category/osx-tip/README.md)
     * [.dev 도메인 접속 안될때](it/category/osx-tip/dev-domain-tip.md)
