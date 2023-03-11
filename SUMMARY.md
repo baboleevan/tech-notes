@@ -34,6 +34,11 @@
   * [GitBook](it/category/gitbook/README.md)
     * [설치 방법](it/category/gitbook/install.md)
 
+***
+
+* [ChatGPT에게 물어보다](chatgpt/README.md)
+  * [MVVM for ReactJS](chatgpt/mvvm-for-reactjs.md)
+
 ## 참고자료 <a href="#reference" id="reference"></a>
 
 * [용어사전](reference/glossary/README.md)
@@ -48,11 +53,6 @@
   * [사이드카 패턴 (Sidecar Pattern)](reference/glossary/sidecar-pattern.md)
   * [온 콜 (On-Call)](reference/glossary/on-call.md)
   * [룩앤필 (Look & Feel)](reference/glossary/look-and-feel.md)
-
-***
-
-* [ChatGPT에게 물어보다](chatgpt/README.md)
-  * [MVVM for ReactJS](chatgpt/mvvm-for-reactjs.md)
 
 ## 외부링크 <a href="#links" id="links"></a>
 
