@@ -53,6 +53,14 @@
   * [사이드카 패턴 (Sidecar Pattern)](reference/glossary/sidecar-pattern.md)
   * [온 콜 (On-Call)](reference/glossary/on-call.md)
   * [룩앤필 (Look & Feel)](reference/glossary/look-and-feel.md)
+  * [ASAP](reference/glossary/asap.md)
+  * [RSVP](reference/glossary/rsvp.md)
+  * [FYI](reference/glossary/fyi.md)
+  * [TBD](reference/glossary/tbd.md)
+  * [CC, BCC](reference/glossary/cc-bcc.md)
+  * [R\&R](reference/glossary/r-and-r.md)
+  * [KPI](reference/glossary/kpi.md)
+  * [Kick-off](reference/glossary/kick-off.md)
 
 ## 외부링크 <a href="#links" id="links"></a>
 
