@@ -40,6 +40,7 @@
 * [ChatGPT에게 물어보다](chatgpt/README.md)
   * [MVVM for ReactJS](chatgpt/mvvm-for-reactjs.md)
   * [AWS Lambda 함수의 콜드 스타트 줄이는 방법](chatgpt/aws-lambda.md)
+  * [AWS AppSync 설명](chatgpt/aws-appsync.md)
 
 ## 참고자료 <a href="#reference" id="reference"></a>
 
