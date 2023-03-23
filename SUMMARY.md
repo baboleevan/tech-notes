@@ -8,7 +8,6 @@
   * [Back-end](it/category/back-end.md)
   * [Database](it/category/database/README.md)
     * [MySQL](it/category/database/mysql/README.md)
-      * [레거시 테이블 정보 문서화를 돕는 쿼리](it/category/database/mysql/undefined.md)
       * [general\_log](it/readme/database/mysql/general\_log.md)
   * [Infra](it/category/infra/README.md)
     * [Shell Script](it/category/infra/shell-script/README.md)
