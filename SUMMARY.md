@@ -24,6 +24,7 @@
       * [최적화](it/readme/front-end/react/optimization/README.md)
         * [리렌더링은 언제 일어 날까?](it/readme/front-end/react/optimization/rerender.md)
         * [Inline function 사용해도 될까?](it/readme/front-end/react/optimization/inline-function.md)
+      * [useEffect가 여러개일 경우 어떤 순서로 처리될까?](it/readme/front-end/react/useeffect.md)
   * [OSX Tip](it/category/osx-tip/README.md)
     * [.dev 도메인 접속 안될때](it/category/osx-tip/dev-domain-tip.md)
     * [cli로 애플리케이션 실행하기](it/category/osx-tip/cli.md)
