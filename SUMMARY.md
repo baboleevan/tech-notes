@@ -21,8 +21,8 @@
       * [Map 과 Set](it/category/front-end/javascript/map-set.md)
       * [고차함수 (hoc : Higher order function)](it/readme/front-end/javascript/hoc.md)
     * [React](it/category/front-end/react.md)
-      * [리렌더링은 언제 일어 날까?](it/readme/front-end/react/rerender.md)
-      * [Inline function 사용해도 될까?](it/readme/front-end/react/inline-function.md)
+      * [리렌더링은 언제 일어 날까?](it/readme/front-end/react/optimization/rerender.md)
+      * [Inline function 사용해도 될까?](it/readme/front-end/react/optimization/inline-function.md)
       * [useEffect가 여러개일 경우 어떤 순서로 처리될까?](it/readme/front-end/react/useeffect.md)
   * [OSX Tip](it/category/osx-tip/README.md)
     * [.dev 도메인 접속 안될때](it/category/osx-tip/dev-domain-tip.md)
@@ -44,6 +44,7 @@
 ## 참고자료 <a href="#reference" id="reference"></a>
 
 * [용어사전](reference/glossary/README.md)
+  * [멱등성(idempotence)](reference/glossary/idempotence.md)
   * [마일스톤 (Mailestone)](reference/glossary/mailestone.md)
   * [제안요청서 (RFP : Request for proposal)](reference/glossary/rfp-request-for-proposal.md)
   * [모멘텀 (Momentum)](reference/glossary/momentum.md)
