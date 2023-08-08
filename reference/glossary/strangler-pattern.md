@@ -14,7 +14,12 @@ Strangler Pattern은 소프트웨어 개발에서 기존의 레거시 시스템�
 
 예를 들어 모놀리식 아키텍처를 마이크로 서비스 아키텍처로(MSA) 전환한다고 할때, 기존에 구축된 기능을 한 번에 옮기는 것은 예상치 못한 여러 가지 문제를 야기 할 수 있으므로, 일부분씩 MSA로 분리하여 적용 하면 사이드 이펙트를 최소하 할 수 있다.
 
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
 * 레거시 시스템의 일부를 새로운 애플리케이션 또는 서비스로 교체한다.
 * 일정 기간이 지난 후, (새로운 애플리케이션 또는 서비스가 정상적으로 동작한다면) 대체된 레거시 기능을 제거한다.
 * 위 작업을 반복한다.
 * 레거시 시스템이 모두 사라지고 완전히 새로운 애플리케이션(또는 서비스)로 서비스가 대체된다.
+
+Martin Fowler가 아내인 Cindy Folwer와 함께 호주에 갔을 때 본 Strangler figs라는 이름의 식물에서 기원한다.\
+다음은 마틴 파울러의 블로그 포스트 "[StranglerFigApplication](https://martinfowler.com/bliki/StranglerFigApplication.html)"에서 발췌한 내용이다.
