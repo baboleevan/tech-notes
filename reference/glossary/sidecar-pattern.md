@@ -4,13 +4,11 @@ description: 어플리케이션 컨테이너와 독립적으로 동작하는 별
 
 # 사이드카 패턴 (Sidecar Pattern)
 
-****
+
 
 ![image](https://user-images.githubusercontent.com/42582516/108616806-4f36d300-7454-11eb-8d58-ceadd4f438ac.png)
 
 일반적으로 사이드카 패턴은 다음과 같이 구성된다. 사이드카 서비스는 어플리케이션의 일부일 필요는 없으며 애플리케이션에 연결되어 있다. 사이드카는 기본 어플리케이션을 사용해서 배포되는 프로세스 또는 서비스를 지원한다.
-
-
 
 **예시**
 
@@ -40,7 +38,7 @@ description: 어플리케이션 컨테이너와 독립적으로 동작하는 별
 * [Deploying an NGINX Reverse Proxy Sidecar Container on Amazon ECS](https://aws.amazon.com/ko/blogs/compute/nginx-reverse-proxy-sidecar-container-on-amazon-ecs/)
 * [Centralized logging in Kubernetes](https://medium.com/@maanadev/centralized-logging-in-kubernetes-d5a21ae10c6e)
 
-**원문링크** 
+**원문링크**
 
-* [https://blog.leocat.kr/notes/2019/02/16/cloud-sidecar-pattern](https://blog.leocat.kr/notes/2019/02/16/cloud-sidecar-pattern)\
+* [https://blog.leocat.kr/notes/2019/02/16/cloud-sidecar-pattern](https://blog.leocat.kr/notes/2019/02/16/cloud-sidecar-pattern)\\
 * [https://azderica.github.io/00-design-pattern-sidecar/](https://azderica.github.io/00-design-pattern-sidecar/)

@@ -57,6 +57,7 @@
   * [온 콜 (On-Call)](reference/glossary/on-call.md)
   * [룩앤필 (Look & Feel)](reference/glossary/look-and-feel.md)
   * [사일로 (Silo, Silo Effect)](reference/glossary/silo-silo-effect.md)
+  * [스트랭글러 패턴 (Strangler Pattern)](reference/glossary/strangler-pattern.md)
   * [ASAP](reference/glossary/asap.md)
   * [RSVP](reference/glossary/rsvp.md)
   * [FYI](reference/glossary/fyi.md)

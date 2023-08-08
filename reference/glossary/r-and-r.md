@@ -21,7 +21,7 @@ description: Role and Responsibilities의 약자로 "역활과 책임", "권한�
 R\&R문서에는 조직에서 각개인의 역활에 대해서 또한 조직도를 구성하여 추가할 수 있다.  조직도 (Organisation chart)는 모든 부서와 팀과 사람들 사이에서 내부관계를 정의하는도구로도 유용하다.  조직도에서는 조직의 구성뿐 아니라  권한과 책임의 범위 그리고 각 조직의 기능에 대해 이미지화 되어서 보여준다.  \
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>예시 이미지</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>예시 이미지</p></figcaption></figure>
 
 잘못된 권한과 책임의 정의는 프로젝트와 업무진행에서 긴장감을 발생시키며, 잘못된 의사소통과 비능률적인 업무진행으로 여러곳에서 시간과 비용을 낭비 시킨다. 담당자들은 R\&R문서를 참조하여 자신의 담당이 무엇인지와 누구에게 보고를 해야 하는지를 확신할 수 있다. 이것은 자신들의 실수와 보고 누락에 따라서 비용과 시간을 낭비시킨다는 것도 알 수 있게 해준다. 잘 작성된 R\&R은 시행착오를 줄여주고, 비용과 시간을 절약할 수 있다는 말도 된다.
 
