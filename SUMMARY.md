@@ -5,6 +5,7 @@
 * [분류](README.md)
   * [CS](it/readme/cs-basic/README.md)
     * [정적타입(Statically typed), 동적타입 (Dynamically typed)](it/readme/cs-basic/statically-typed-dynamically-typed.md)
+    * [자바 챔피언 크리스 리처드슨이 말하는 마이크로서비스 아키텍처 | 김용욱 | 마이크로서비스 아키텍처 구축 가이드](it/readme/cs-basic/or-or.md)
   * [Back-end](it/category/back-end.md)
   * [Database](it/category/database/README.md)
     * [MySQL](it/category/database/mysql/README.md)
